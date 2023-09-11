@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 99;
+	padding: 30px 15%;
+	width: 100%;
+	height: 15vh;
+	background-color: #FEFEFE;
+}
+.header li{
+	display: inline;
+	padding: 0px 20px
+}
+.banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30% 15% 20%;
+	background-color: #FFF7E0;
+	height: 50vh;
+	margin: 0px 2%
+}
+.intro{
+	margin: 10%;
+}
+.intro p{
+	padding: 25px 0px;
+}
+.intro h5{
+	padding: 25px 0px;
+}
+.intro a{
+	color: white;
+	background-color: black;
+	padding: 10px 15px;
+}
+.membership{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	width: 100%
+}
+.membership h3{
+	padding: 0px 30% 0px 15%;
+}
+.footer{
+	display: flex;
+	padding: 50px;
+	width: 100%;
+	background-color:#FFF7E0;
+	
+}
+.new{
+	padding: 0px 200px 0px 130px;
+}
+.contact{
+    text-align: center;
+	padding: 20px;
+	background-color:#FFF7E0;
+	padding-bottom: 100px;
+} 
+.contact noidung{
+	padding-bottom: 100px;
+}
+.contact a{
+	color: white;
+	background-color: black;
+	padding: 5px 10px;
+}
